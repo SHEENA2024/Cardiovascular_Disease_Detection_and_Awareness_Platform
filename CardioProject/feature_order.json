@@ -1,0 +1,38 @@
+{
+  "columns": [
+    "date",
+    "country",
+    "id",
+    "active",
+    "age",
+    "alco",
+    "ap_hi",
+    "ap_lo",
+    "cholesterol",
+    "gender",
+    "gluc",
+    "height",
+    "occupation",
+    "smoke",
+    "weight"
+  ],
+  "num_cols": [
+    "id",
+    "active",
+    "age",
+    "alco",
+    "ap_hi",
+    "ap_lo",
+    "cholesterol",
+    "gender",
+    "gluc",
+    "height",
+    "smoke",
+    "weight"
+  ],
+  "cat_cols": [
+    "date",
+    "country",
+    "occupation"
+  ]
+}
