@@ -1,0 +1,131 @@
+.lifestyle-page {
+  font-family: Arial, sans-serif;
+  background: lightcyan;
+  color: #333;
+}
+
+/* Hero */
+.lifestyle-hero {
+  background: url("https://source.unsplash.com/1600x500/?nature,healthy") center/cover no-repeat;
+  color: orangered;
+  text-align: center;
+  padding: 80px 20px;
+}
+.lifestyle-hero h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+.lifestyle-hero p {
+  font-size: 20px;
+}
+
+/* Carousel */
+.carousel {
+  padding: 40px;
+  text-align: center;
+}
+.carousel-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.tip-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  max-width: 400px;
+}
+.tip-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.carousel button {
+  background: #1976d2;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/* Timeline */
+.timeline {
+  background: #fff3e0;
+  padding: 40px;
+}
+.timeline h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.timeline ul {
+  max-width: 600px;
+  margin: auto;
+  list-style: none;
+  padding: 0;
+}
+.timeline li {
+  padding: 10px;
+  margin: 10px 0;
+  background: white;
+  border-left: 5px solid #ff9800;
+  border-radius: 8px;
+}
+
+/* Checklist */
+.checklist {
+  padding: 40px;
+  text-align: center;
+}
+.habit {
+  display: block;
+  margin: 10px;
+  font-size: 18px;
+}
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+/* Education Cards */
+.education-cards {
+  padding: 40px;
+  background: #eef7f4;
+}
+.education-cards h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+.edu-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+.edu-card h3 {
+  margin-bottom: 10px;
+}
+.edu-card.sleep { border-top: 5px solid #3f51b5; }
+.edu-card.exercise { border-top: 5px solid #4caf50; }
+.edu-card.nutrition { border-top: 5px solid #ff9800; }
+.edu-card.stress { border-top: 5px solid #9c27b0; }
+.edu-card.hydration { border-top: 5px solid #03a9f4; }
+
+/* Footer */
+.lifestyle-footer {
+  background: #2e7d32;
+  color: white;
+  text-align: center;
+  padding: 40px;
+}
+.lifestyle-footer h2 {
+  font-size: 32px;
+}
